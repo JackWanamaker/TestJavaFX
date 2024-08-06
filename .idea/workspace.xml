@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e2ed63e-645f-4022-b655-ab9ddcba6ead" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/JewelSeaCodeStackOverflow.java" afterDir="false" />
+    <list default="true" id="5e2ed63e-645f-4022-b655-ab9ddcba6ead" name="Changes" comment="Added the StackOverflow code to my project for easy accessibility.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/StackPaneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TimerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/JewelSeaCodeStackOverflow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TextFieldFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TextFieldFilterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +33,12 @@
     &quot;assignee&quot;: &quot;JackWanamaker&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JackWanamaker/TestJavaFX.git",
-    "accountId": "cfd99d0b-8fdd-49af-b80b-14a5a3c482ab"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JackWanamaker/TestJavaFX.git&quot;,
+    &quot;accountId&quot;: &quot;cfd99d0b-8fdd-49af-b80b-14a5a3c482ab&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -53,7 +58,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "Application.StackPaneTest.executor": "Run",
     "Application.TextFieldFilterTest.executor": "Run",
+    "Application.TimerTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -68,6 +75,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="StackPaneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jammin.testjavafx.StackPaneTest" />
+      <module name="TestJavaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jammin.testjavafx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StackPaneTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,8 +113,19 @@
       <updated>1721950299136</updated>
       <workItem from="1721950300300" duration="918000" />
       <workItem from="1721997893238" duration="4423000" />
-      <workItem from="1722016489626" duration="327000" />
+      <workItem from="1722016489626" duration="1660000" />
+      <workItem from="1722723409495" duration="14948000" />
+      <workItem from="1722905052394" duration="7984000" />
     </task>
+    <task id="LOCAL-00001" summary="Added the StackOverflow code to my project for easy accessibility.">
+      <option name="closed" value="true" />
+      <created>1722016884076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722016884076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +135,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Added the StackOverflow code to my project for easy accessibility." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the StackOverflow code to my project for easy accessibility." />
   </component>
 </project>

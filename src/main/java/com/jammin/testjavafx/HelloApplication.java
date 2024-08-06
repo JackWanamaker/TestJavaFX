@@ -45,12 +45,7 @@ public class HelloApplication extends Application {
         timeField.setTextFormatter(
                 timeFormatter
         );
-        timeField.setOnAction(_ ->
-                timeArc.setLength(
-                        timeFormatter.getValue() != null
-                                ? timeFormatter.getValue() * 6
-                                : 0
-                )
+        timeField.setOnAction(_ -> timeArc.setLength(timeFormatter.getValue() != null ? timeFormatter.getValue() * 6 : 0)
         );
 
         return timeField;
