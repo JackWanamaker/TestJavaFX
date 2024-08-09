@@ -25,9 +25,6 @@ public class TimerTest extends Application {
 
         Arc myArc = createArc();
 
-        myTextField.setOnAction((evt) -> myTextField.getTextFormatter().getValue() != null
-                ? myArc.setLength(myTextField.getTextFormatter().getValue()): 0;
-
         StackPane myStackPane = new StackPane(myImage,createArc());
 
         VBox myVBox = new VBox(myStackPane, createTextField());
@@ -45,10 +42,12 @@ public class TimerTest extends Application {
         return myArc;
     }
 
-    public TextField createTextField(){
+    public TextField createTextField(Arc myArc){
         TextField myTextField = new TextField("Enter Time 1-60");
 
         myTextField.setTextFormatter(new TextFormatter<Integer>(new IntegerStringConverter(), 60, this::filter));
+
+        //myTextField.setOnAction((evt) -> );
 
         return myTextField;
     }

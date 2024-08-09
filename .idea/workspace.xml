@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e2ed63e-645f-4022-b655-ab9ddcba6ead" name="Changes" comment="Added the StackOverflow code to my project for easy accessibility.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/StackPaneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TimerTest.java" afterDir="false" />
+    <list default="true" id="5e2ed63e-645f-4022-b655-ab9ddcba6ead" name="Changes" comment="Deleted some unecessary files and added an img folder with test images.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/JewelSeaCodeStackOverflow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TextFieldFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TextFieldFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TimerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TimerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,26 +51,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.StackPaneTest.executor": "Run",
-    "Application.TextFieldFilterTest.executor": "Run",
-    "Application.TimerTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackPaneTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextFieldFilterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimerTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jackw/IdeaProjects/test_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="StackPaneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jammin.testjavafx.StackPaneTest" />
@@ -115,7 +112,9 @@
       <workItem from="1721997893238" duration="4423000" />
       <workItem from="1722016489626" duration="1660000" />
       <workItem from="1722723409495" duration="14948000" />
-      <workItem from="1722905052394" duration="7984000" />
+      <workItem from="1722905052394" duration="8961000" />
+      <workItem from="1723156573628" duration="281000" />
+      <workItem from="1723164019973" duration="3196000" />
     </task>
     <task id="LOCAL-00001" summary="Added the StackOverflow code to my project for easy accessibility.">
       <option name="closed" value="true" />
@@ -125,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722016884076</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Deleted some unecessary files and added an img folder with test images.">
+      <option name="closed" value="true" />
+      <created>1722918875214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722918875214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +143,7 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Added the StackOverflow code to my project for easy accessibility." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the StackOverflow code to my project for easy accessibility." />
+    <MESSAGE value="Deleted some unecessary files and added an img folder with test images." />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted some unecessary files and added an img folder with test images." />
   </component>
 </project>
