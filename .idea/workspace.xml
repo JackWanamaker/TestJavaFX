@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e2ed63e-645f-4022-b655-ab9ddcba6ead" name="Changes" comment="Created an example of a scaling arc as the size of the scene in my application changes. Deleted old files">
+    <list default="true" id="5e2ed63e-645f-4022-b655-ab9ddcba6ead" name="Changes" comment="Altered the scaling and linked the scaling to the height property. One of my next steps is to add an event listener which switches the binding based on whether the width or height of the window is greater.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/MyTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/MyTestApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,28 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.MyTestApplication.executor": "Run",
-    "Application.StackPaneTest.executor": "Run",
-    "Application.TextFieldFilterTest.executor": "Run",
-    "Application.TimerTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jackw/IdeaProjects/test_project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyTestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackPaneTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextFieldFilterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimerTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jackw/IdeaProjects/test_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="StackPaneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jammin.testjavafx.StackPaneTest" />
@@ -115,7 +114,7 @@
       <workItem from="1722723409495" duration="14948000" />
       <workItem from="1722905052394" duration="8961000" />
       <workItem from="1723156573628" duration="281000" />
-      <workItem from="1723164019973" duration="9318000" />
+      <workItem from="1723164019973" duration="12347000" />
     </task>
     <task id="LOCAL-00001" summary="Added the StackOverflow code to my project for easy accessibility.">
       <option name="closed" value="true" />
@@ -149,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723217446739</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Altered the scaling and linked the scaling to the height property. One of my next steps is to add an event listener which switches the binding based on whether the width or height of the window is greater.">
+      <option name="closed" value="true" />
+      <created>1723220255186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723220255186</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +170,7 @@
     <MESSAGE value="Deleted some unecessary files and added an img folder with test images." />
     <MESSAGE value="Commit before I decide to delete old files." />
     <MESSAGE value="Created an example of a scaling arc as the size of the scene in my application changes. Deleted old files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an example of a scaling arc as the size of the scene in my application changes. Deleted old files" />
+    <MESSAGE value="Altered the scaling and linked the scaling to the height property. One of my next steps is to add an event listener which switches the binding based on whether the width or height of the window is greater." />
+    <option name="LAST_COMMIT_MESSAGE" value="Altered the scaling and linked the scaling to the height property. One of my next steps is to add an event listener which switches the binding based on whether the width or height of the window is greater." />
   </component>
 </project>
