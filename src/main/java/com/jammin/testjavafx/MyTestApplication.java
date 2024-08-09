@@ -12,7 +12,7 @@ public class MyTestApplication extends Application {
     public void start(Stage PrimaryStage){
         StackPane myStackPane = new StackPane();
 
-        Scene scene = new Scene(myStackPane);
+        Scene scene = new Scene(myStackPane,200,200);
 
         createArc(myStackPane);
 
@@ -27,7 +27,7 @@ public class MyTestApplication extends Application {
         myArc.setType(ArcType.ROUND);
         myStackPane.getChildren().add(myArc);
 
-        myArc.radiusXProperty().bind(myArc.getParent().getScene().widthProperty().divide(2));
-        myArc.radiusYProperty().bind(myArc.getParent().getScene().heightProperty().divide(2));
+        myArc.radiusXProperty().bind(myArc.getParent().getScene().heightProperty().divide(2.5));
+        myArc.radiusYProperty().bind(myArc.getParent().getScene().heightProperty().divide(2.5));
     }
 }

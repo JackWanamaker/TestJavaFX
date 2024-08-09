@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e2ed63e-645f-4022-b655-ab9ddcba6ead" name="Changes" comment="Created an example of a scaling arc as the size of the scene in my application changes. Deleted old files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/MyTestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/StackPaneTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TextFieldFilterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/TimerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/MyTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/MyTestApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +115,7 @@
       <workItem from="1722723409495" duration="14948000" />
       <workItem from="1722905052394" duration="8961000" />
       <workItem from="1723156573628" duration="281000" />
-      <workItem from="1723164019973" duration="7454000" />
+      <workItem from="1723164019973" duration="9318000" />
     </task>
     <task id="LOCAL-00001" summary="Added the StackOverflow code to my project for easy accessibility.">
       <option name="closed" value="true" />
@@ -146,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723174755836</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created an example of a scaling arc as the size of the scene in my application changes. Deleted old files">
+      <option name="closed" value="true" />
+      <created>1723217446739</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723217446739</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
