@@ -38,23 +38,9 @@ public class HelloApplication extends Application {
 
         stage.setScene(myScene);
 
-        /*myScene.heightProperty().addListener(new ChangeListener<Number>() {
-            @Override
-            public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                SVGString.changeSVGHeight(t1.intValue());
-                myWebView.getEngine().loadContent(SVGString.getString());
-            }
-        });
-
-        myScene.widthProperty().addListener(new ChangeListener<Number>() {
-            @Override
-            public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                SVGString.changeSVGWidth(t1.intValue());
-                myWebView.getEngine().loadContent(SVGString.getString());
-            }
-        });*/
-
         stage.setAlwaysOnTop(true);
+
+        stage.setOpacity(.4);
 
         stage.show();
 
@@ -62,7 +48,7 @@ public class HelloApplication extends Application {
 
     //Constructor for my Arc
     public Arc createArc(StackPane myStackPane, Scene myScene){
-        Arc myArc = new Arc(100,100,100,100,0,360);
+        Arc myArc = new Arc(100,100,myScene.getWidth()/2.9,myScene.getHeight()/2.9,0,360);
         myArc.setFill(Color.GREEN);
         myArc.setType(ArcType.ROUND);
         myStackPane.getChildren().add(myArc);

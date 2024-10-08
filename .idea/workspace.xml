@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e2ed63e-645f-4022-b655-ab9ddcba6ead" name="Changes" comment="Wow! Created some static Strings and manipulated them with ChangeListeners to change the size of the SVG image. Right on">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/timer_ticks.png" afterDir="false" />
+    <list default="true" id="5e2ed63e-645f-4022-b655-ab9ddcba6ead" name="Changes" comment="Updating because I'm moving my desktop PC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jammin/testjavafx/HelloApplication.java" afterDir="false" />
     </list>
@@ -99,6 +98,8 @@
       <workItem from="1724176198133" duration="3882000" />
       <workItem from="1724328045843" duration="8328000" />
       <workItem from="1724373000270" duration="942000" />
+      <workItem from="1724441583115" duration="54000" />
+      <workItem from="1724588244377" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="Wow! Created some static Strings and manipulated them with ChangeListeners to change the size of the SVG image. Right on">
       <option name="closed" value="true" />
@@ -108,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724330303601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updating because I'm moving my desktop PC">
+      <option name="closed" value="true" />
+      <created>1724441605841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724441605841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Wow! Created some static Strings and manipulated them with ChangeListeners to change the size of the SVG image. Right on" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wow! Created some static Strings and manipulated them with ChangeListeners to change the size of the SVG image. Right on" />
+    <MESSAGE value="Updating because I'm moving my desktop PC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating because I'm moving my desktop PC" />
   </component>
 </project>
